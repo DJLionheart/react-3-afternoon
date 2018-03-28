@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 import './App.css';
 
 import Header from './Header/Header';
 import Compose from './Compose/Compose';
-import axios from 'axios';
+
 import Post from './Post/Post.js'
 
 class App extends Component {
